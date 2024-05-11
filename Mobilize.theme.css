@@ -1,0 +1,200 @@
+	/**
+ * @name Mobilize
+ * @version 1.0.0
+ * @author maz
+ * @authorId 193018082011250688
+ * @description A theme that tries to translate the visual style of the Discord mobile redesign.
+*/
+
+/* ----- */
+/* color */
+
+.theme-dark {
+    --primary-500-hsl: var(--theme-h) calc(var(--theme-s) - 5%) calc(var(--theme-l) + 10%)!important; /* Greyed Text */
+    --primary-530-hsl: var(--theme-h) calc(var(--theme-s) - 3%) calc(var(--theme-l) - 2.10%)!important; /* Server Activity Badge */
+    --primary-560-hsl: var(--theme-h) calc(var(--theme-s) - 4.5%) calc(var(--theme-l) - 2.10%)!important; /* Message Bar */
+    --primary-600-hsl: var(--theme-h) calc(var(--theme-s) - 3%) calc(var(--theme-l) - 5%)!important; /* PRIMARY Chat BG */
+    --primary-630-hsl: var(--theme-h) calc(var(--theme-s) - 1.5%) calc(var(--theme-l) - 7%)!important; /* SECONDARY Channel + Member List */
+    --primary-645-hsl: var(--theme-h) calc(var(--theme-s) - 4%) calc(var(--theme-l) - 8.5%)!important; /* Misc. Channels */
+    --primary-660-hsl: var(--theme-h) calc(var(--theme-s) + 1%) calc(var(--theme-l) - 8.5%)!important; /* Account Bar */
+    --primary-700-hsl: var(--theme-h) calc(var(--theme-s) + 1%) calc(var(--theme-l) - 8.5%)!important; /* TERTIARY Server List + Title bar */
+    --primary-730-hsl: var(--theme-h) calc(var(--theme-s) - 4.5%) calc(var(--theme-l) - 2.10%)!important; /* Scroll Bar */
+    --primary-760-hsl: var(--theme-h) calc(var(--theme-s) - 3%) calc(var(--theme-l) + 100%)!important; /* not sure */
+    --primary-800-hsl: var(--theme-h) calc(var(--theme-s) - 3%) calc(var(--theme-l) - 13.30%)!important; /* Context Menu */
+    --primary-830-hsl: var(--theme-h) calc(var(--theme-s) - 3%) calc(var(--theme-l) + 100%)!important; /* not sure */
+    --primary-860-hsl: var(--theme-h) calc(var(--theme-s) - 3%) calc(var(--theme-l) - 100%)!important; /* Channel Header Shadow */
+    --primary-900-hsl: var(--theme-h) calc(var(--theme-s) - 3%) calc(var(--theme-l) - 100%)!important; /* Also Channel Header Shadow??? */
+    --home-background: var(--background-tertiary);
+}
+
+:root {
+    --theme-h: 230!important;
+    --theme-s: 13%!important;
+    --theme-l: 17%!important;
+}
+
+
+/* ----- */
+/* fixes */
+
+button, input, .radioBar__70669, .item_b7fb7e, .select_fe2671, .popout_a6e77f, .avatarWrapper__500a6, .messagesPopoutWrap__10dd1, .messageGroupWrapper__1fce2, .message_ccca67, .wrapper__4e6b6 {
+ border-radius:8px!important;
+}
+
+.messagesPopout__28784, .messagesPopoutWrap__10dd1 {
+ max-height: 75vh;
+}
+
+.platform-win .sidebar_e031be {
+    border-radius: 16px 4px 0 0;
+    overflow: hidden;
+    margin-right: 8px;
+}
+
+.members__573eb, .searchResultsWrap__2e184 {
+  margin-left: 2px!important;
+}
+
+.members__573eb, .member_aa4760, .theme-dark .container__7e23c, .searchBar__621ec, .theme-dark .scroller__89969 {
+  background-color: var(--background-primary)!important
+}
+
+.chat__52833, .container_bd15da, .chat__52833.threadSidebarOpen__62c31 {
+  border-radius: 4px 16px 4px 16px;
+}
+
+.container__694a1 {
+  border-radius:16px 16px 4px 4px;
+}
+
+.container_f79ab4, .searchResultsWrap__2e184 {
+  box-shadow: -1px 0 4px 0px #0000006e !important;
+  margin-left: 2px;
+}
+
+.topicsPill_bf6ef4 {
+  background-color: var(--background-tertiary);
+  border-radius: 0px 0px 8px 8px;
+}
+
+.content__76dcf {
+  margin-right:9px;
+  margin-bottom:9px;
+}
+
+.scroller__1f498, .theme-dark .scroller__89969, .container__7e23c {
+  border-radius: 0 0 16px 16px;
+}
+
+.link_ddbb36, .layout_bb8e67, .colorDefault_e361cf  {
+  border-radius: 10px!important;
+  margin:1px;
+  margin-bottom:2px;
+}
+
+.option__91497, .side_b4b3f6 .item__48dda {
+  border-radius: 10px;
+}
+
+.modeSelected__473f1 .link_ddbb36, .selected__7f4cb .layout_bb8e67, .searchHeader__4d70e {
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: #ffffff1f!important;
+  box-shadow: -1px 0px 3px var(--background-tertiary)!important;
+  background-color: hsl(var(--theme-h) calc(var(--theme-s) - 4.5%) calc(var(--theme-l) + 0%))!important;
+  overflow:visible;
+}
+
+.searchHeader__4d70e {
+  margin: 16px 16px 0px 16px;
+  border-radius:8px;
+}
+
+.form_d8a4a1:after, .theme-dark .innerHeader_ccbd77:after {
+  visibility:hidden;
+}
+
+.theme-dark .themed_b152d4, .tabBar_d4764b, .top_fae1fa, .pageBody_c0e5dd, .theme-dark .container__03ec9, .scroller__6ea8b, .scroller__5f036, .searchResultsWrap__2e184, .messageGroupWrapper__1fce2, .container_f79ab4, .chat__52833 {
+  background-color: var(--background-primary)!important;
+}
+
+.prompt__1b100, .channelRow__538ef, .searchResult__00093, .tertiary_ad6d80 {
+  background-color: var(--background-secondary)!important;
+}
+
+.sidebar_e031be, .privateChannels__9b518, .contentRegion__08eba, .sidebarRegionScroller__8113e, .messagesPopout__28784, .list__19127, .scroller_e3927b, .channelHeader_ea0f89 {
+  background-color: var(--background-tertiary)!important;
+}
+
+.container__8d997 {
+background: #ffffff06;
+}
+
+.contentRegionScroller__9ae20 {
+  border-radius: 16px 8px 8px 16px;
+  height:99%;
+  width:99%;
+}
+
+.searchBar__5a20a, .searchFilter_dbda51 {
+  border-radius:16px;
+}
+
+.searchFilter_dbda51 {
+  border-radius: 16px 0px 0px 16px;
+  margin: 1px!important;
+  padding-left:8px!important;
+}
+
+.searchAnswer__2ccaf {
+  border-radius: 0px 16px 16px 0px;
+  padding-right:8px!important;
+}
+
+.menu__088f7, .scrollableContainer_ff917f, .contentWrapper_e0bb2c, .container__84c26 {
+  border-radius: 16px!important;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: #ffffff0f!important;
+}
+
+.popout_a6e77f {
+ margin: 4px 0px;
+}
+
+.mentioned_fa6fd2:before, .replying__38514:before {
+  border-radius: 16px 0 0 16px;
+  margin: 5px;
+}
+
+.message_ccca67 {
+  margin: 0px 5px;
+}
+
+.form_d8a4a1:before{
+  width:100vw;
+}
+
+.attachedBars_c1606a, .jumpToPresentBar__69174 {
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: #ffffff0f!important;
+  border-radius: 16px 16px 0 0;
+  margin: 0 16px 0 16px;
+  box-shadow: 0 0 4px 4px #00000010;
+}
+
+.scrollableContainer_ff917f {
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: #ffffff0f!important;
+  box-shadow: 0 0 4px 4px #00000010;
+}
+
+.scrollableContainer_ff917f {
+  margin-bottom:32px;
+}
+
+.search_ac353c .DraftEditor-root {
+  padding-left:2px
+}
