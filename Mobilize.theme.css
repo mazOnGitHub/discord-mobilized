@@ -190,7 +190,7 @@ background: #ffffff06;
   outline-style: solid;
   outline-width: 1px;
   outline-color: #ffffff0f!important;
-  box-shadow: 0 0 4px 4px #00000010;
+  /* box-shadow: 0 0 4px 4px #00000010; */
 }
 
 .search_ac353c .DraftEditor-root {
