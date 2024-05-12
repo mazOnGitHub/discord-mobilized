@@ -201,7 +201,10 @@ background: #ffffff06;
   padding-left:2px
 }
 
-
+.name__4eb92 {
+    font-size: 14px
+    font-weight: 505 !important;
+}
 
 /* Using Aircraft192's Windows Buttons */
 div[class*=withFrame_] { height: 30px; margin-top: 4px; background: var(--background-tertiary); }
