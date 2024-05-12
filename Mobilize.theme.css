@@ -1,6 +1,6 @@
-	/**
+/**
  * @name Mobilize
- * @version 1.0.0
+ * @version 1.0.1
  * @author maz
  * @authorId 193018082011250688
  * @description A theme that tries to translate the visual style of the Discord mobile redesign.
@@ -184,6 +184,12 @@ background: #ffffff06;
   box-shadow: 0 0 4px 4px #00000010;
 }
 
+.jumpToPresentBar__69174, .jumpToPresentBar__69174:active {
+  margin: 16px;
+  padding: 2px;
+  border-radius: 16px;
+}
+
 .scrollableContainer_ff917f {
   outline-style: solid;
   outline-width: 1px;
@@ -198,3 +204,13 @@ background: #ffffff06;
 .search_ac353c .DraftEditor-root {
   padding-left:2px
 }
+
+
+
+
+/* Using Aircraft192's Windows Buttons */
+div[class*=withFrame_] { height: 30px; margin-top: 4px; }
+div[class*=winButton_] { position: relative; top: -4px; cursor: default; width: 45px; height: 34px; -webkit-app-region: no-drag; }
+div[class*=wordmarkWindows_] { position: absolute; top: 0; left: 0; padding: 10px 9px 3px; color: var(--text-muted); }
+div[class*=contentColumnDefault_] { position: relative; padding: 48px 40px 80px; }
+div[class*=toolsContainer_] { padding-top: 48px; }
