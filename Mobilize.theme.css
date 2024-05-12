@@ -204,7 +204,7 @@ background: #ffffff06;
 
 
 /* Using Aircraft192's Windows Buttons */
-div[class*=withFrame_] { height: 30px; margin-top: 4px; }
+div[class*=withFrame_] { height: 30px; margin-top: 4px; background: var(--background-secondary); }
 div[class*=winButton_] { position: relative; top: -4px; cursor: default; width: 45px; height: 34px; -webkit-app-region: no-drag; }
 div[class*=wordmarkWindows_] { position: absolute; top: 0; left: 0; padding: 10px 9px 3px; color: var(--text-muted); }
 div[class*=contentColumnDefault_] { position: relative; padding: 48px 40px 80px; }
