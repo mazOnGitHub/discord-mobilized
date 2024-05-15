@@ -126,8 +126,8 @@ button, input, .radioBar__70669, .item_b7fb7e, .select_fe2671, .popout_a6e77f, .
 background: #ffffff06;
 }
 
-.container__62863:hover {
-var(--bg-overlay-1, var(--background-message-hover))
+.theme-dark.mouse-mode.full-motion .message_ccca67:hover {
+background-color: #00000006;
 }
 
 .contentRegionScroller__9ae20 {
