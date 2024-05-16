@@ -45,7 +45,7 @@ button, input, .radioBar__70669, .item_b7fb7e, .select_fe2671, .popout_a6e77f, .
  max-height: 75vh;
 }
 
-.platform-win .sidebar_e031be {
+.platform-win .sidebar_e031be, .sidebar_e031be {
     border-radius: 16px 4px 0 0;
     overflow: hidden;
     margin-right: 8px;
