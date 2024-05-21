@@ -88,6 +88,10 @@ button, input, .radioBar__70669, .item_b7fb7e, .select_fe2671, .popout_a6e77f, .
   margin-bottom:2px;
 }
 
+.wrapper__612a5:hover .link_ddbb36 {
+ background-color: var(--background-secondary)
+}
+
 .option__91497, .side_b4b3f6 .item__48dda {
   border-radius: 10px;
 }
