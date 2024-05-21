@@ -126,6 +126,10 @@ button, input, .radioBar__70669, .item_b7fb7e, .select_fe2671, .popout_a6e77f, .
 background: #ffffff06;
 }
 
+.message_ccca67:hover {
+background: #00000006
+}
+
 .contentRegionScroller__9ae20 {
   border-radius: 16px 8px 8px 16px;
   height:99%;
